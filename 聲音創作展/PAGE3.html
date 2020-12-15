@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Little Whispering Calendar</title>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+</head>
+
+<html>
+
+<head>
+    <style>
+        body {
+            background-color: #f7f6f4;
+            margin: 0px;
+        }
+
+
+        .h1 {
+            font-size: 36px;
+            font-family: 'B612', sans-serif;
+            font-weight: 610;
+            letter-spacing: 2px;
+            color: #faf4f4;
+            display: inline;
+        }
+
+        .h2 {
+            font-size: 16px;
+            font-family: 'B612', sans-serif;
+            font-weight: 610;
+            letter-spacing: 3px;
+            color: #faf4f4;
+            display: inline;
+            text-align: left !important;
+        }
+
+
+        .p1 {
+            font-size: 16px;
+            font-family: 'B612', sans-serif;
+            font-weight: 610;
+            letter-spacing: 4px;
+            color: #faf4f4;
+            display: inline;
+            text-align: left !important;
+            line-height: 40px;
+        }
+
+        h {
+            font-size: 16px;
+            font-family: 'Noto sans TC', sans-serif;
+            font-weight: bold;
+            letter-spacing: 4px;
+            color: rgb(87, 66, 66);
+            line-height: 40px;
+        }
+
+        h3 {
+            width: 300px;
+            font-size: 14px;
+            font-family: 'Noto sans TC', sans-serif;
+            letter-spacing: 2px;
+            color: black;
+            display: block flex;
+            margin-top: 20px;
+            text-align: justify;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        h6 {
+            width: 300px;
+            font-size: 10px;
+            font-family: 'Noto sans TC', sans-serif;
+            line-height: 20px;
+            letter-spacing: 2px;
+            color: grey;
+            display: block flex;
+            margin-top: 20px;
+            text-align: right;
+            margin-left: 8%;
+
+        }
+
+
+        .img {
+            width: 100%;
+            height: 150px;
+            background-size: contain;
+            margin-bottom: 9px;
+        }
+
+        .b1 {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #cab9ad;
+            display: flex;
+            justify-content: space-around;
+            position: relative;
+        }
+
+        .b2 {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #cab9ad;
+            display: flex;
+            justify-content: space-around;
+            position: relative;
+        }
+
+
+
+        .t1 {
+            height: 42px;
+            width: 200px;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .t2 {
+            height: 42px;
+            width: 240px;
+            background-color: #a19284;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .t3 {
+            background-color: white;
+            display: flex;
+
+
+        }
+
+        .t4 {
+            display: flex;
+
+        }
+        .t6 {
+            height: 42px;
+            width: 200px;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        /*0618new end*/
+
+        .block {
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #f3f3f3;
+        }
+
+        .line {
+            width: 70%;
+            height: 4px;
+            background-color: #ced8d1;
+            display: inline-block;
+        }
+
+        .left {
+            width: 45%;
+            height: 20%;
+            float: left;
+
+        }
+
+        .right {
+            width: 55%;
+            height: 20%;
+            float: left;
+
+
+        }
+
+        .t6:hover {
+            opacity: 70%;
+            transition: opacity 0.2s linear 0.05s;
+
+        }
+
+        .t2:hover {
+            opacity: 70%;
+            transition: opacity 0.2s linear 0.05s;
+
+        }
+
+    </style>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=B612:wght@400;700&display=swap');
+    </style>
+
+</head>
+
+<body>
+
+    <div class="b1" style=" cursor: pointer;" onclick="location.href='./homepage.html'">
+        <p class="h1">My Little Whispering Calendar</p>
+    </div>
+    <div class="b2">
+        <div class="t2" style="cursor: pointer;" onclick="location.href='./PAGE2.html'">
+            <h style="color: #faf4f4;">打開日曆，傾聽回憶</h>
+        </div>
+        <div class="t6" style="background-color: #ece4da; cursor: pointer;"
+            onclick="location.href='./taiwan/taiwan.html'">
+            <h>關於YEN＆JIA</h>
+        </div>
+        <div class="t1" style="background-color: #ece4da;">
+            <h>協力・聲優名單</h>
+        </div>
+    </div>
+
+    <div class="left" style="height: 100%; width: 40%;">
+        <div style="margin-left: 10%; margin-top: 5%;">
+            <p style="font-size: 20px; font-family: 'Noto sans TC', sans-serif; font-weight: bold; margin-left: 15%;">
+                聲優列表</p>
+
+        </div>
+        <div style="margin-left: 10%; margin-top: 1%; margin-bottom: 3%;">
+            <div class="t3" style="width: 70%; height: 10%; margin-left: 8%;">
+                <p
+                    style="font-size: 14px; font-family: 'Noto sans TC', sans-serif; line-height: 28px; margin-left: 10%;">
+                    牛智妍<br>
+                    成年・幼年／Uni<br>
+                    嬰兒／YEN<br>
+                    <br>
+                    爸爸（牛延智）／高仲凱<br>
+                    媽媽／貞蓁<br>
+                    哥哥／Soren<br>
+                    俊德／dear<br>
+                    熊熊／Handy<br>
+                    NOKIA 3310／Fla許<br>
+                    鋅合金／Chen<br>
+                    水彩筆／阿煙<br>
+                    同學／JIA<br>
+                    店員／盈慧
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <div class="right" style="height: 100%; width: 60%;">
+        <div style="margin-left: 5%; margin-bottom: 3%;">
+            <p style="font-size: 20px; font-family: 'Noto sans TC', sans-serif; font-weight: bold; margin-left: 6%;">
+                特別感謝</p>
+
+        </div>
+        <div style="margin-left: 5%; margin-top: 1%;">
+            <div class="t3" style="height: auto; width: 50%; margin-left: 2%; text-align: left;">
+                <p
+                    style="font-size: 14px; font-family: 'Noto sans TC', sans-serif; line-height: 28px; margin-left: 6.5%;">
+                    美術協力／Carni<br><br><br>
+                    工程協力／李法賢 老師
+                </p>
+            </div>
+
+            <div class="t3" style="height: auto; width: 50%; margin-left: 2%; margin-top: 10%;">
+                <p
+                    style="font-size: 14px; font-family: 'Noto sans TC', sans-serif; line-height: 28px; margin-left: 6.5%;">
+                    謝謝為我們獻聲的夥伴們<br>
+                    謝謝百忙之中為我們空出耳朵的你<br>
+                    謝謝
+                </p>
+            </div>
+
+            <div class="t4" style="height: auto; width: 50%; margin-left: 45%; margin-right: 2%; margin-top: 10%;">
+                <h6>My Little Whispering Calendar<br>
+                    Presented by YEN & JIA<br>
+                    2020・冬</h6>
+
+            </div>
+        </div>
+
+</body>
